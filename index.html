@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html class="html" lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gabriel Oliveira Front-end Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="tela-mobile.css">
+    <link rel="shortcut icon" href="img/moon-eclipse.svg" type="image/svg">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+</head>
+<body class="all">
+    <header class="menu-section" data-header>
+        <a class="name-logo" href="#">Gabriel</a>
+        <nav class="menu-nav">
+           <a id="up" data-scroll-to-down class="menu-nav-item" href="#home">  <i class="uil uil-estate"></i> Início</a>
+            <a id="go-to-sobre" data-scroll-to-down class="menu-nav-item" href="#about-section"><i class="uil uil-user"></i> Sobre</a>
+            <a id="go-to-sobre" data-scroll-to-down class="menu-nav-item" href="#skills-section"><i class="uil uil-file-graph"></i> Skills</a>
+           <a id="go-to-port" data-scroll-to-down class="menu-nav-item" href="#port">  <i class="uil uil-image"></i> Portifólio</a>
+           <a id="go-to-contato" data-scroll-to-down class="menu-nav-item" href="#contato"><i class="uil uil-message"></i> Contato</a>
+           <i id="Menu-Close" class="uil uil-times"></i>
+        </nav>
+        <i id="darkmode-btn" class="uil uil-moon"></i>
+        <i id="menu-hamburguer" class="uil uil-apps"></i>
+        
+    </header>
+    <section id="home" class="home-section">
+        <div href="#about-section" data-scroll-to-down data-scroll-down class="scroll-down">
+            <i href="#about-section" data-scroll-to-down id="mouse-icon" class="uil uil-mouse-alt"></i><h1 href="#about-section" data-scroll-to-down>Scroll down</h1><i href="#about-section" data-scroll-to-down id="arrow-down-icon" class="uil uil-arrow-down"></i>
+        </div>
+        <div class="left-container">
+            <div class="icons-container">
+                <a id="lkd-icon" href="https://www.linkedin.com/in/oliveiragabrieldev/" target="_blank"><i id="linkedin-icon" class="uil uil-linkedin-alt"></i></a>
+                <a id="git-icon" href="https://github.com/iamgabrieloliveira" target="_blank"><i id="github-icon" class="uil uil-github-alt"></i></a>
+            </div>
+            <div class="text-container">
+                <h1 id="nome">Olá, Meu nome é Gabriel</h1>
+                <h2 id="app">Estudante de Programação</h2>
+            </div>
+        </div>
+        <aside class="img-container">
+            <img class="astronaut" src="img/astronauta.png" data-rodar>
+        </aside>
+    </section>
+    <section id="about-section" class="sobre-section">
+        <h1 data-scrollreveal class="sobre-mim-title">Sobre Mim</h1>
+        <div class="sobre-container">
+            <div data-scrollreveal="left" class="sobre-left-container">
+            <img id="cloud" src="img/astronauta3.png">
+        </div>
+        <div data-scrollreveal="right" class="sobre-right-container">
+        <div class="sobre-text-container">
+            <p>Meu nome é Gabriel de Oliveira, tenho 19 anos, sou estudante de Análise e desenvolvimento de sistemas e estou 100% focado no mundo da programação, venho realizando vários cursos e bootcamps online, tenho interesse na área de desenvolvimento Front-End.</p>
+        </div>
+        <div class="div-btn-sobre">
+            <a download="Currículo Gabriel Oliveira" href="Gabriel Oliveira Currículo.pdf"><button>Download CV<i id="download-icon" class="uil uil-download-alt"></i></button> </a>
+        </div>
+        </div>
+        </div>
+    </section>
+    <section id="skills-section" class="skills-section">
+        <h1 data-scrollreveal class="skills-section-title">Skills</h1>
+        <div class="skill-section-container">
+        <div data-scrollreveal="left" class="text-skill-container">
+            <h2>O que eu sei ?</h2>
+            <p>Desde o início dos meus estudos, estou focado na área de Front-End, foi a área que mais me identifiquei e estou gostando de aprender, comecei os primeiros meses construindo uma base bem sólida e adoro práticar o que aprendo em aplicações reais, como sites por exemplo.</p>
+        </div>
+        <div class="skills-container">
+            <h2>Tenho conhecimento</h2>
+            <div data-skillContainer="html" class="html-container">
+                <h1>HTML</h1>
+                <div class="progress-bar">
+                    <div class="html-progress-bar-complete"  data-progress-bar="html" ></div>
+                </div>
+                <i data-showskill="html" id="angle-down-skill-html" class="uil uil-angle-down"></i>
+                <p class="skill-text">Através do Html semântico, sei estruturar bem meu site, usando sempre as tags corretas para cada situação. </p>
+            </div>
+            <div data-skillContainer="css" class="css-container">
+                <h1>CSS</h1>
+                <div class="progress-bar">
+                    <div data-progress-bar="css" class="css-progress-bar-complete"></div>
+                </div>
+                <i data-showskill="css" id="angle-down-skill-css" class="uil uil-angle-down"></i>
+                <p class="skill-text">Tenho bastante conhecimento em, media query para deixar o site responsivo, flexbox, grid, animation, juntamente com o javascript sei trabalhar com diversas animações, sem a necessidade de bibliotecas externas</p>
+            </div>
+            <div data-skillContainer="js" class="js-container">
+                <h1>JavaScript</h1>
+                <div class="progress-bar">
+                    <div data-progress-bar="js" class="js-progress-bar-complete"></div>
+                </div>
+                <i data-showskill="js" id="angle-down-skill-js" class="uil uil-angle-down"></i>
+                <p class="skill-text">Com JavaScript tenho conhecimento em capturar e manipular elementos com DOM, boa lógica de programação, funções, classes, eventos, capturar interações do usuário.</p>
+            </div>
+            <div  data-skillContainer="git" class="git-container">
+                <h1>Git/GitHub</h1>
+                <div class="progress-bar">
+                    <div data-progress-bar="git" class="git-progress-bar-complete"></div>
+                </div>
+                <i data-showskill="git" id="angle-down-skill-git" class="uil uil-angle-down"></i>
+                <p class="skill-text">Conhecimento em comandos básicos do Git, para versionamento de arquivos.</p>
+            </div>
+        </div>
+        <div data-scrollreveal="right" class="tenho-interesse">
+            <h2 >Tenho interesse em</h2>
+            <div  class="skill-interesse">
+                <div  data-skillContainer="react" class="react-container">
+                    <h1>React</h1>
+                    <i data-showskill="react" id="angle-down-skill-react" class="uil uil-angle-down"></i>
+                    <p class="skill-text">No futuro, com react acredito que irei aprimorar minhas aplicações web, além de ser uma tecnologia sendo muito utilizado, com bastante suporte e confiança.</p>
+                </div>
+                <div data-skillContainer="react-native" class="react-native">
+                    <h1>React Native</h1>
+                    <i data-showskill="react-native" id="angle-down-skill-native" class="uil uil-angle-down"></i>
+                    <p class="skill-text">Além da minha paixão pelo Front-End, tenho bastante interesse pelo desenvolvimento Mobile, e acredito que após eu ter uma base bem sólida de JavaScript e React, avançar meus conhecimentos para o React Native fique mais fácil.</p>
+                </div>
+                <div data-skillContainer="ts" class="typeScript">
+                    <h1>TypeScript</h1>
+                    <i data-showskill="ts" id="angle-down-skill-typescript" class="uil uil-angle-down"></i>
+                    <p class="skill-text">Uma linguagem que vejo crescendo bastante, principalmente quando falamos de desenvolvimento Front-End, portanto, desejo aprende-lá para sempre estar utilizando a melhor tecnologia para área</p>
+                </div>
+                <div data-skillContainer="vue" class="vuejs-container">
+                    <h1>VueJs</h1>
+                    <i data-showskill="vue" id="angle-down-skill-vuejs" class="uil uil-angle-down"></i>
+                    <p class="skill-text">Vejo bastante Sites e projetos utilizando este Framework javascript, por isso, acho bem interessando aprender sobre.</p>
+                </div>
+            </div>
+        </div>
+        
+      </div>
+    </section>
+    <section id="port" class="portifolio">
+        <div id="ifood-container" data-PopUpContainer class="pop-up-ifood">
+            <div class="pop-up-container">
+                <img data-closePopUp class="close-btn-ifood" src="img/close.svg" alt="close-button">
+                <div class="projeto-img">
+                    <img class="img-popup" src="img/ifood-wallpaper.png" alt="">
+                </div>
+                <div class="descricao-ifood">
+                    <div sobre-ifood>
+                    <h1 class="popup-title">
+                        iFood Page
+                    </h1>
+                    <p class="popup-text">
+                        Página do iFood replicada para práticar conceitos Front-End
+                    </p>
+                    </div>
+                    <div class="tipagem">
+                    <h2>Criado em: 05/2022</h2>
+                    <h2>Tecnologias: Html, CSS, JavaScript</h2>
+                    <h2>Stack: Front-End</h2>
+                    <H2>Acessar: <a href="https://iamgabrieloliveira.github.io/iFood-Page/" target="_blank">www.iFood.com</a></H2>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div id="cron-container" data-PopUpContainer class="pop-up-cron">
+                <div class="pop-up-container">
+                    <img data-closePopUp class="close-btn-cron" src="img/close.svg" alt="close-button">
+                    <div class="projeto-img">
+                        <img style="border-radius: 10px;" src="img/cronometro-wallpaper.png" alt="cronometro" class="img-popup">
+                    </div>
+                    <div class="descricao-ifood">
+                        <div sobre-ifood>
+                        <h1 class="popup-title">
+                            Cronômetro
+                        </h1>
+                        <p class="popup-text">
+                            Cronômetro criado com JavaScript, para praticar o uso do "SetInterval".
+                        </p>
+                        </div>
+                        <div class="tipagem">
+                        <h2>Criado em: 04/2022</h2>
+                        <h2>Tecnologias: Html, CSS, JavaScript</h2>
+                        <h2>Stack: Front-End</h2>
+                        <H2>Acessar: <a href="https://iamgabrieloliveira.github.io/Cronometro/" target="_blank">www.Cronômetro.com</a></H2>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <div id="calc-container" data-PopUpContainer class="pop-up-calc">
+                    <div class="pop-up-container">
+                        <img data-closePopUp class="close-btn-calc" src="img/close.svg" alt="close-button">
+                        <div class="projeto-img">
+                            <img style="border-radius: 10px;" src="img/calculadora-wallpaper.png" alt="calculadora" class="img-popup">
+                        </div>
+                        <div class="descricao-ifood">
+                            <div sobre-ifood>
+                            <h1 class="popup-title">
+                                Calculadora
+                            </h1>
+                            <p class="popup-text">
+                                Calculadora criada com Html, CSS, JavaScript 
+                            </p>
+                            </div>
+                            <div class="tipagem">
+                            <h2>Criado em: 04/2022</h2>
+                            <h2>Tecnologias: Html, CSS, JavaScript</h2>
+                            <h2>Stack: Front-End</h2>
+                            <H2>Acessar: <a href="https://iamgabrieloliveira.github.io/Calculadora/" target="_blank">www.Calculadora.com</a></H2>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div id="appvilla-container" data-PopUpContainer class="pop-up-appvila">
+                        <div class="pop-up-container">
+                            <img data-closePopUp class="close-btn-appvila" src="img/close.svg" alt="close-button">
+                            <div class="projeto-img">
+                                <img style="border-radius: 10px;" src="img/appvilla-wallpaper.png" alt="cronometro" class="img-popup">
+                            </div>
+                            <div class="descricao-ifood">
+                                <div sobre-ifood>
+                                <h1 class="popup-title">
+                                    AppVilla
+                                </h1>
+                                <p class="popup-text">
+                                    Landing Page do AppVilla criada com Html, CSS e JavaScript
+                                </p>
+                                </div>
+                                <div class="tipagem">
+                                <h2>Criado em: 03/2022</h2>
+                                <h2>Tecnologias: Html, CSS, JavaScript</h2>
+                                <h2>Stack: Front-End</h2>
+                                <H2>Acessar: <a href="https://iamgabrieloliveira.github.io/Appvilla/" target="_blank">www.AppVilla.com</a></H2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="gitcard-container" data-PopUpContainer class="pop-up-rocket">
+                        <div class="pop-up-container">
+                            <img data-closePopUp class="close-btn-gitcard" src="img/close.svg" alt="close-button">
+                            <div class="projeto-img">
+                                <img style="border-radius: 10px;" src="img/gitcard.png" alt="cronometro" class="img-popup">
+                            </div>
+                            <div class="descricao-ifood">
+                                <div sobre-ifood>
+                                <h1 class="popup-title">
+                                    Git Hub Card
+                                </h1>
+                                <p class="popup-text">
+                                   Projeto criado consumindo a API do Git Hub para práticar os conceitos de Promisses Axios e Fetch.
+                                </p>
+                                </div>
+                                <div class="tipagem">
+                                <h2>Criado em: 05/2022</h2>
+                                <h2>Tecnologias: Html, CSS, JavaScript</h2>
+                                <h2>Stack: Front-End</h2>
+                                <H2>Acessar: <a href="https://iamgabrieloliveira.github.io/GITHUB-CARD/"target="_blank">www.GitSearch.com</a></H2>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    <div id="iphone-container" data-PopUpContainer class="pop-up-iphone">
+                        <div class="pop-up-container">
+                            <img data-closePopUp class="close-btn-iphone" src="img/close.svg" alt="close-button">
+                            <div class="projeto-img">
+                                <img style="border-radius: 10px;" src="img/iphone-wallpaper.png" alt="cronometro" class="img-popup">
+                            </div>
+                            <div class="descricao-ifood">
+                                <div sobre-ifood>
+                                <h1 class="popup-title">
+                                    Landing Page do iPhone 11
+                                </h1>
+                                <p class="popup-text">
+                                    Landing Page do iPhone 11 criada com Html, CSS e JavaScript
+                                </p>
+                                </div>
+                                <div class="tipagem">
+                                <h2>Criado em: 03/2022</h2>
+                                <h2>Tecnologias: Html, CSS, JavaScript</h2>
+                                <h2>Stack: Front-End</h2>
+                                <H2>Acessar: <a href="https://iamgabrieloliveira.github.io/Landing-page-iPhone-11/"target="_blank">www.iPhone11.com</a></H2>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                        <div id="rocket-container" data-PopUpContainer class="pop-up-rocket">
+                            <div class="pop-up-container">
+                                <img data-closePopUp class="close-btn-rocket" src="img/close.svg" alt="close-button">
+                                <div class="projeto-img">
+                                    <img style="border-radius: 10px;" src="img/rocket-wallpaper.png" alt="cronometro" class="img-popup">
+                                </div>
+                                <div class="descricao-ifood">
+                                    <div sobre-ifood>
+                                    <h1 class="popup-title">
+                                        Desafio "RocketCoffe" da Rocketseat
+                                    </h1>
+                                    <p class="popup-text">
+                                        Desafio proposto na plataforma da Rockeseat que consistia em criar uma Landing Page.
+                                    </p>
+                                    </div>
+                                    <div class="tipagem">
+                                    <h2>Criado em: 05/2022</h2>
+                                    <h2>Tecnologias: Html, CSS, JavaScript</h2>
+                                    <h2>Stack: Front-End</h2>
+                                    <H2>Acessar: <a href="https://iamgabrieloliveira.github.io/Rocket-Coffe/"target="_blank">www.RocketCoffe.com</a></H2>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                             <div id="ifood-container" data-PopUpContainer class="pop-up-ifood">
+            <div class="pop-up-container">
+                <img data-closePopUp class="close-btn-ifood" src="img/close.svg" alt="close-button">
+                <div class="projeto-img">
+                    <img class="img-popup" src="img/ifood-wallpaper.png" alt="">
+                </div>
+                <div class="descricao-ifood">
+                    <div sobre-ifood>
+                    <h1 class="popup-title">
+                        iFood Page
+                    </h1>
+                    <p class="popup-text">
+                        Página do iFood replicada para práticar conceitos Front-End
+                    </p>
+                    </div>
+                    <div class="tipagem">
+                    <h2>Criado em: 05/2022</h2>
+                    <h2>Tecnologias: Html, CSS, JavaScript</h2>
+                    <h2>Stack: Front-End</h2>
+                    <H2>Acessar: <a href="https://iamgabrieloliveira.github.io/iFood-Page/" target="_blank">www.iFood.com</a></H2>
+                    </div>
+                </div>
+            </div>
+            </div>
+                            <div id="rocket-count-container" data-PopUpContainer class="pop-up-rocket-count">
+                                <div class="pop-up-container">
+                                    <img data-closePopUp class="close-btn-rocket-count" src="img/close.svg" alt="close-button">
+                                    <div class="projeto-img">
+                                        <img style="border-radius: 10px;" src="img/rocket-count.png" alt="cronometro" class="img-popup">
+                                    </div>
+                                    <div class="descricao-ifood">
+                                        <div sobre-ifood>
+                                        <h1 class="popup-title">
+                                            Desafio "Countdown" da Rocketseat
+                                        </h1>
+                                        <p class="popup-text">
+                                            Criação de uma contagem regressiva para o lançamento de um site
+                                        </p>
+                                        </div>
+                                        <div class="tipagem">
+                                        <h2>Criado em: 05/2022</h2>
+                                        <h2>Tecnologias: Html, CSS, JavaScript</h2>
+                                        <h2>Stack: Front-End</h2>
+                                        <H2>Acessar: <a href="https://iamgabrieloliveira.github.io/Rocketcount/"target="_blank">www.Rocketcount.com</a></H2>
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                                <div id="themesw-container" data-PopUpContainer class="pop-up-themesw">
+                                    <div class="pop-up-container">
+                                        <img data-closePopUp class="close-btn-themesw" src="img/close.svg" alt="close-button">
+                                        <div class="projeto-img">
+                                            <img style="border-radius: 10px;" src="img/theme.png" alt="cronometro" class="img-popup">
+                                        </div>
+                                        <div class="descricao-ifood">
+                                            <div sobre-ifood>
+                                            <h1 class="popup-title">
+                                                Desafio "Theme Switcher"
+                                            </h1>
+                                            <p class="popup-text">
+                                                Desafio da Rockeseat para fixar conceitos de JavaScript
+                                            </p>
+                                            </div>
+                                            <div class="tipagem">
+                                            <h2>Criado em: 05/2022</h2>
+                                            <h2>Tecnologias: Html, CSS, JavaScript</h2>
+                                            <h2>Stack: Front-End</h2>
+                                            <H2>Acessar: <a href="https://iamgabrieloliveira.github.io/Desafio-Theme-Switcher-/"target="_blank">www.ThemeSwitcher.com</a></H2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                    <div id="todolist-container" data-PopUpContainer class="pop-up-todolist">
+                                        <div class="pop-up-container">
+                                            <img data-closePopUp class="close-btn-todolist" src="img/close.svg" alt="close-button">
+                                            <div class="projeto-img">
+                                                <img style="border-radius: 10px;" src="img/todolist.png" alt="cronometro" class="img-popup">
+                                            </div>
+                                            <div class="descricao-ifood">
+                                                <div sobre-ifood>
+                                                <h1 class="popup-title">
+                                                    To Do List
+                                                </h1>
+                                                <p class="popup-text">
+                                                    To Do List básico para práticar JavaScript, podendo adicionar tarefas e remove-las quando quiser.
+                                                </p>
+                                                </div>
+                                                <div class="tipagem">
+                                                <h2>Criado em: 05/2022</h2>
+                                                <h2>Tecnologias: Html, CSS, JavaScript</h2>
+                                                <h2>Stack: Front-End</h2>
+                                                <H2>Acessar: <a href="https://iamgabrieloliveira.github.io/ToDoList/"target="_blank">www.ToDoList.com</a></H2>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        </div>
+        <h1 class="portifolio-title" data-scrollreveal >Portifólio</h1>
+        <div class="projetos">
+            <div class="projeto-item" data-scrollreveal>
+                <div id="ifood" class="projeto-item">
+                    <div class="calculadora-title">
+                       <h1 class="calculadora-title-txt">iFood Page</h1>
+                        <div class="links-calc">
+                            <div class="tecs-calc">
+                                <i id="tec-icon" class="uil uil-html5"></i><span class="tec-txt">HTML</span>
+                                <i id="tec-icon" class="uil uil-css3-simple"></i><span class="tec-txt">CSS</span>
+                                <i id="tec-icon" class="uil uil-java-script"></i><span class="tec-txt">JavaScript</span>
+                            </div>
+                            <div class="git-link">
+                                <a target="_blank" href="https://iamgabrieloliveira.github.io/iFood-Page/"><button class="git-link-btn">Acessar</button></a>
+                                <i data-infoicon-btn class="uil uil-info-circle" id="ifood-container"></i>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+        </div>
+        <div data-scrollreveal class="projeto-item">
+            <div id="rocket-count" class="projeto-item">
+                <div class="calculadora-title">
+                   <h1 class="calculadora-title-txt">Rocket Count</h1>
+                    <div class="links-calc">
+                        <div class="tecs-calc">
+                            <i id="tec-icon" class="uil uil-html5"></i><span class="tec-txt">HTML</span>
+                            <i id="tec-icon" class="uil uil-css3-simple"></i><span class="tec-txt">CSS</span>
+                            <i id="tec-icon" class="uil uil-java-script"></i><span class="tec-txt">JavaScript</span>
+                        </div>
+                        <div class="git-link">
+                            <a target="_blank" href="https://iamgabrieloliveira.github.io/Rocketcount/"><button class="git-link-btn">Acessar</button></a>
+                            <i data-infoicon-btn class="uil uil-info-circle" id="rocket-count-container"></i>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+    </div>
+    <div data-scrollreveal class="projeto-item">
+        <div id="gitcard" class="projeto-item">
+            <div class="calculadora-title">
+               <h1 class="calculadora-title-txt">Git Hub Card</h1>
+                <div class="links-calc">
+                    <div class="tecs-calc">
+                        <i id="tec-icon" class="uil uil-html5"></i><span class="tec-txt">HTML</span>
+                        <i id="tec-icon" class="uil uil-css3-simple"></i><span class="tec-txt">CSS</span>
+                        <i id="tec-icon" class="uil uil-java-script"></i><span class="tec-txt">JavaScript</span>
+                    </div>
+                    <div class="git-link">
+                        <a target="_blank" href="https://iamgabrieloliveira.github.io/GITHUB-CARD/"><button class="git-link-btn">Acessar</button></a>
+                        <i data-infoicon-btn class="uil uil-info-circle" id="gitcard-container"></i>
+                    </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <div data-scrollreveal class="projeto-item">
+        <div id="rocket" class="projeto-item">
+            <div class="calculadora-title">
+               <h1 class="calculadora-title-txt">Rocket Coffe</h1>
+                <div class="links-calc">
+                    <div class="tecs-calc">
+                        <i id="tec-icon" class="uil uil-html5"></i><span class="tec-txt">HTML</span>
+                        <i id="tec-icon" class="uil uil-css3-simple"></i><span class="tec-txt">CSS</span>
+                        <i id="tec-icon" class="uil uil-java-script"></i><span class="tec-txt">JavaScript</span>
+                    </div>
+                    <div class="git-link">
+                        <a target="_blank" href="https://iamgabrieloliveira.github.io/Rocket-Coffe/"><button class="git-link-btn">Acessar</button></a>
+                        <i data-infoicon-btn class="uil uil-info-circle" id="rocket-container"></i>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <div data-scrollreveal class="projeto-item">
+                <div  id="cronometro" class="projeto-item">
+                    <div class="calculadora-title">
+                       <h1 class="calculadora-title-txt">Cronômetro</h1>
+                        <div class="links-calc">
+                            <div class="tecs-calc">
+                            <i id="tec-icon" class="uil uil-html5"></i><span class="tec-txt">HTML</span>
+                            <i id="tec-icon" class="uil uil-css3-simple"></i><span class="tec-txt">CSS</span>
+                            <i id="tec-icon" class="uil uil-java-script"></i><span class="tec-txt">JavaScript</span>
+                            </div>
+                            <div class="git-link">
+                                <a target="_blank" href="https://iamgabrieloliveira.github.io/Cronometro/"><button class="git-link-btn">Acessar</button></a>
+                                <i data-infoicon-btn class="uil uil-info-circle" id="cron-container"></i>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div data-scrollreveal id="calculadora" class="projeto-item">
+                <div class="calculadora-title">
+                   <h1 class="calculadora-title-txt">Calculadora</h1>
+                    <div class="links-calc">
+                        <div class="tecs-calc">
+                            <i id="tec-icon" class="uil uil-html5"></i><span class="tec-txt">HTML</span>
+                            <i id="tec-icon" class="uil uil-css3-simple"></i><span class="tec-txt">CSS</span>
+                            <i id="tec-icon" class="uil uil-java-script"></i><span class="tec-txt">JavaScript</span>
+                        </div>
+                        <div class="git-link">
+                            <a target="_blank" href="https://iamgabrieloliveira.github.io/Calculadora/"><button class="git-link-btn">Acessar</button></a>
+                            <i data-infoicon-btn class="uil uil-info-circle" id="calc-container"></i>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div data-scrollreveal class="projeto-item">
+                    <div id="theme-switcher" class="projeto-item">
+                        <div class="calculadora-title">
+                           <h1 class="calculadora-title-txt">Theme Switcher</h1>
+                            <div class="links-calc">
+                                <div class="tecs-calc">
+                            <i id="tec-icon" class="uil uil-html5"></i><span class="tec-txt">HTML</span>
+                            <i id="tec-icon" class="uil uil-css3-simple"></i><span class="tec-txt">CSS</span>
+                            <i id="tec-icon" class="uil uil-java-script"></i><span class="tec-txt">JavaScript</span>
+                                </div>
+                                <div class="git-link">
+                                    <a target="_blank" href="https://iamgabrieloliveira.github.io/Desafio-Theme-Switcher-/"><button class="git-link-btn">Acessar</button></a>
+                                    <i data-infoicon-btn class="uil uil-info-circle" id="themesw-container"></i>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <div data-scrollreveal class="projeto-item">
+                    <div id="iphone" class="projeto-item">
+                        <div class="calculadora-title">
+                           <h1 class="calculadora-title-txt">iPhone 11 Page</h1>
+                            <div class="links-calc">
+                                <div class="tecs-calc">
+                                    <i id="tec-icon" class="uil uil-html5"></i><span class="tec-txt">HTML</span>
+                                    <i id="tec-icon" class="uil uil-css3-simple"></i><span class="tec-txt">CSS</span>
+                                    <i id="tec-icon" class="uil uil-java-script"></i><span class="tec-txt">JavaScript</span>
+                                </div>
+                                <div class="git-link">
+                                    <a target="_blank" href="https://iamgabrieloliveira.github.io/Landing-page-iPhone-11/"><button class="git-link-btn">Acessar</button></a>
+                                    <i data-infoicon-btn class="uil uil-info-circle" id="iphone-container"></i>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <div data-scrollreveal class="projeto-item">
+                    <div id="page" class="projeto-item">
+                        <div class="calculadora-title">
+                           <h1 class="calculadora-title-txt">AppVilla</h1>
+                            <div class="links-calc">
+                                <div class="tecs-calc">
+                                    <i id="tec-icon" class="uil uil-html5"></i><span class="tec-txt">HTML</span>
+                                    <i id="tec-icon" class="uil uil-css3-simple"></i><span class="tec-txt">CSS</span>
+                                    <i id="tec-icon" class="uil uil-java-script"></i><span class="tec-txt">JavaScript</span>
+                                </div>
+                                <div class="git-link">
+                                    <a target="_blank" href="https://iamgabrieloliveira.github.io/Appvilla/"><button class="git-link-btn">Acessar</button></a>
+                                    <i data-infoicon-btn class="uil uil-info-circle" id="appvilla-container"></i>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                <div data-scrollreveal class="projeto-item">
+                    <div id="todolist" class="projeto-item">
+                        <div class="calculadora-title">
+                           <h1 class="calculadora-title-txt">To Do List</h1>
+                            <div class="links-calc">
+                                <div class="tecs-calc">
+                                    <i id="tec-icon" class="uil uil-html5"></i><span class="tec-txt">HTML</span>
+                                    <i id="tec-icon" class="uil uil-css3-simple"></i><span class="tec-txt">CSS</span>
+                                    <i id="tec-icon" class="uil uil-java-script"></i><span class="tec-txt">JavaScript</span>
+                                </div>
+                                <div class="git-link">
+                                    <a target="_blank" href="https://iamgabrieloliveira.github.io/ToDoList/"><button class="git-link-btn">Acessar</button></a>
+                                    <i data-infoicon-btn class="uil uil-info-circle" id="todolist-container"></i>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                    
+        </div>
+        </div>
+    </section>
+    <footer id="contato" class="rodape">
+        <h1 data-scrollreveal class="contato-title">Contatos</h1>
+        <div data-scrollreveal class="rodape-container">
+        <div class="contatos-container">
+            <h2 class="contatos-title">Entre em contato</h2>
+            <div class="telefone-container">
+                <h1><img width="30px" src="img/phone.svg"> Telefone</h1>
+                <h2>(55) 996096108</h2>
+            </div>
+            <div class="email-container">
+                <h1><img width=30px" src="img/envelope.svg"> E-mail</h1>
+                <h2>oliveiragabriel.dev@gmail.com</h2>
+            </div>
+            <div class="endereco-container">
+                <h1><img width="30px" src="img/map-marker-alt.svg">Endereço</h1>
+                <h2>Santa Maria, Rio Grande do Sul</h2>
+            </div>
+        </div>
+        <div id="formulario" class="form-container">
+            <form action="https://formsubmit.co/oliveiragabriel.dev@gmail.com" method="POST" class="formulario">
+                <h2 class="form-title">Envie uma Mensagem</h2>
+            <input type="hidden" name="_captcha" value="false" name="_next" value="http://127.0.0.1:5500/" >
+            <input name="Nome"  id="nome-form" type="text" placeholder="Nome">
+            <input name="E-Mail" required id="email-form" type="email" placeholder="E-Mail">
+            <input name="Assunto" id="assunto-form" type="text" placeholder="Assunto">
+            <input name="Menssagem" required id="menssagem-form" type="text" placeholder="Mensagem">
+            <button class="enviar-form">Enviar<img width="15px" src="img/mensagem-icon.svg"></button>
+        </form>
+        </div>
+        </div>
+    </footer>
+    <a id="go-to-home" data-scroll-to-down href="#home"><img  data-scroll-to-down href="#home" id="go-to-up" class="go-to-up" src="img/arrowup.svg"></a>
+</body>
+    <script src="app.js"></script>
+</html>
